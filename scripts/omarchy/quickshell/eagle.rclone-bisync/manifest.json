@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "eagle.rclone-bisync",
+  "name": "Rclone Bisync",
+  "version": "1.0.0",
+  "author": "Eagle",
+  "license": "MIT",
+  "description": "Monitor discovered rclone/bisync timers and review runs with Omarchy's default agent.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Rclone Bisync",
+    "description": "Show sync health, choose watched timers, open logs, and ask the configured Omarchy agent for a review.",
+    "category": "System",
+    "defaultSection": "right",
+    "allowMultiple": false
+  }
+}
